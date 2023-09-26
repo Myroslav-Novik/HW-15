@@ -1,0 +1,60 @@
+.holder {
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first {
+    width: 150px;
+    height: 75px;
+    order: -1;
+    background-color: red;
+    border-top-left-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second {
+    width: 100px;
+    height: 75px;
+    background-color: rgb(0, 204, 255);
+    order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth {
+    width: 100px;
+    height: 75px;
+    order: 1;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third {
+    width: 100px;
+    height: 75px;
+    background-color: rgb(163, 0, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth {
+    width: 150px;
+    height: 75px;
+    order: -1;
+    background-color: rgba(255, 200, 0, 0.8);
+    border-top-right-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
